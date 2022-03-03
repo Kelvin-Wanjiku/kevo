@@ -1,0 +1,62 @@
+*{
+    margin: 00px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+    
+}
+
+
+/*here am describing the whole navbar, the structure how it should look its color and page only nothing more*/
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100;
+    background-color: bisque;
+    z-index: 9;
+}
+
+
+.nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.links{
+    float:center;
+    position:absolute;
+    top:93px;
+    right: 360px;
+    display: block;
+    justify-content: space-between;
+}
+
+.lists{
+    list-style: none;
+}
+nav li{
+    float: left;
+    word-spacing: 3.5px;
+
+}
+nav a{
+    margin-left: 30px;
+    color:brown;
+} 
+nav a:hover{color: blue;}
+h1{
+    color: chartreuse;
+}
+.section{
+    float: right;
+    margin-right: 400px;
+    padding-top: 50px;
+}
+.history{
+    float: right;
+    position: fixed;
+
+}

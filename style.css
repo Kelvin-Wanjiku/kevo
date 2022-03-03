@@ -67,7 +67,7 @@
     float:center;
     position:absolute;
     top:93px;
-    right: 560px;
+    right: 360px;
     display: block;
     justify-content: space-between;
 }
@@ -91,4 +91,28 @@ nav a{
     top: 60px;
     position: absolute;
 }
+ol{
+    float: right;
+    right: 600px;
+    color: greenyellow;
+    position: relative;
+}
 
+table{
+    border: 1px solid black;
+    float: right;
+    right: 605px;
+    top: 20px;
+    color:yellowgreen;
+    border-spacing: 5px;
+    position: relative;
+    background-image: url(./images/background.jpg);
+
+}
+table, th{
+    border: 3px solid yellow;
+}
+table,tr{
+    border: 1px solid gold;
+    border-spacing: 5px;
+}
