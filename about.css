@@ -60,3 +60,9 @@ h1{
     position: fixed;
 
 }
+.text{
+    float: right;
+    position:absolute;
+    color: blue;
+    justify-content: right;
+}
