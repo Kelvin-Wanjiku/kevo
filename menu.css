@@ -141,6 +141,7 @@
         padding-right: 5px;
         padding-top: 5px;
         border-radius: 50px;
+        top: 130px;
         
     }
     .img3{
@@ -152,15 +153,28 @@
     .img4{
         border-top-style: ridge;
         
-        position: relative;
+        position: absolute;
         float: right;
         padding-right: 0px;
         right: 3px;
         border-radius: 50px;
+        top: 200px;
     }
     .img5{
         position: relative;
         border-radius: 50px;
+    }
+    .img6{
+        position: relative;
+    }
+    .img7{
+        border-top-style: ridge;
+        
+        position: absolute;
+        float: right;
+        top: 920px;
+        right: 3px;
+        
     }
 
     
