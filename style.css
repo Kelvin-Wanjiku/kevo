@@ -123,5 +123,15 @@ table,tr{
     border-spacing: 5px;
 }
 .contact{
-    background-image: url(./images/quino-al-8gWEAAXJjtI-unsplash.jpg);
+    float: right;
+    text-size-adjust: 100px;
+    color:black;
+    padding-bottom: 100px;
+}
+.contact-image{
+    background-size: auto;
+}
+video{
+    width: 99%;
+    height: fit-content;
 }
